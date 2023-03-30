@@ -1,6 +1,7 @@
 from django.urls import path
 from card import views
 
+
 urlpatterns = [
     path('create/', views.CreateFlashCardView.as_view(), name="create-flash-card"),
     path('update/<id>/', views.UpdateFlashCardView.as_view(), name="update-flash-card"),
