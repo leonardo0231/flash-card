@@ -2,5 +2,5 @@
 A simple Django Rest API proj
 
 
-install Library
+# install Library 
 pip install -r requirements.txt
